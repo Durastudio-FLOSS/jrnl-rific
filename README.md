@@ -1,3 +1,3 @@
 # Jrnl-Rific
 
-Code tidbits for jrnl use. http://jrnl.sh/
+Automating jrnl use for creative workflow. http://jrnl.sh/
