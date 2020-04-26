@@ -8,3 +8,4 @@
 * Multiproject support
 * Git integration
 * Multiplatform FocusWriter as editor
+* Configuration file editor eg jrnl.yaml
