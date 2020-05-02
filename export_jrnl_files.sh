@@ -15,4 +15,19 @@
 #    jrnl $j --export markdown -o ../$j/
 #done
 
-jrnl basename "$PWD" --export md -o "$PWD"
+if [ $(basename $PWD) == "journal" ]; then
+   JRNL=""
+else
+   JRNL=$(basename $PWD)
+fi
+
+jrnl $JRNL --export md -o "$PWD"
+
+# Ask user to push changes. Git repo must be functional.
+echo "Do you wish to push local changes? (Press 1 for Yes, 2 for No)"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) git add . && git commit -m "Updated jrnl entries" && git push; break;;
+        No ) exit;;
+    esac
+done
