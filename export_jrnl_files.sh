@@ -11,6 +11,8 @@
 
 #cd path/to/jrnl/repos/parent/dir
 
-for j in $(jrnl -ls) ; do 
-    jrnl $j --export txt -o ../$j/
-done
+#for j in $(jrnl -ls) ; do 
+#    jrnl $j --export markdown -o ../$j/
+#done
+
+jrnl basename "$PWD" --export md -o "$PWD"
