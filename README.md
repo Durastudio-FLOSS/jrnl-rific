@@ -7,5 +7,10 @@
 * Flat learning curve over time
 * Multiproject support
 * Git integration
-* Multiplatform FocusWriter as editor
+* I use multiplatform FocusWriter as external editor
+
+## Todo
 * Configuration file editor eg jrnl.yaml
+* Add, edit, remove additional journals.
+* Drupal CMS publishing
+* CalDAV and CarDAV push support
