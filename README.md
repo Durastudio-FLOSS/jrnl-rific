@@ -13,3 +13,9 @@
 * Add, edit, remove additional journals
 * Drupal CMS publishing via Feeds Import from CSV
 * CalDAV and CarDAV tagged entry push support
+
+## Resources
+* tags-to-dav - https://sabre.io/dav/building-a-caldav-client/
+* Python iCalendar Search - https://duckduckgo.com/?q=python+icalendar&atb=v106-1&ia=web
+* Python iCalendar Docs - https://icalendar.readthedocs.io/en/latest/
+* Python URL File Parsing etc - https://github.com/irgangla/icalevents
