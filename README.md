@@ -16,6 +16,6 @@
 
 ## Resources
 * Building a Sabre/Dav Client - https://sabre.io/dav/building-a-caldav-client/
-* Python iCalendar Search - https://duckduckgo.com/?q=python+icalendar&atb=v106-1&ia=web
+* Python iCalendar Search - https://duckduckgo.com/?q=python+icalendar
 * Python iCalendar Docs - https://icalendar.readthedocs.io/en/latest/
 * Python URL File Parsing etc - https://github.com/irgangla/icalevents
