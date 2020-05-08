@@ -2,11 +2,11 @@
 
 ## Automating jrnl use for creative workflow. http://jrnl.sh/
 
-* Simple, less distracting work environment
-* Consistent tech experience
-* Flat learning curve over time
-* Multiproject support
-* Git integration
+* Jrnl provides a simple, less distracting work environment
+* Jrnl makes a consistent tech experience
+* Jrnl has a flat learning curve with few changes over time
+* Jrnl offers multiproject support
+* Jrnl-Rific makes Git integration easy
 
 ## Todo
 * Configuration file editor eg jrnl.yaml
