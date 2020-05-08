@@ -1,6 +1,6 @@
 # Jrnl-Rific
 
-## Automating jrnl use for creative workflow. http://jrnl.sh/
+## Automating jrnl use for creative workflow. https://jrnl.sh/
 
 * Jrnl provides a simple, less distracting work environment
 * Jrnl maintains a consistent tech experience
