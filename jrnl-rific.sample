@@ -1,0 +1,11 @@
+# Jrnl-rific configuration files
+
+# Default jrnl-rific install location
+JRNL-RIFIC_HOME="$HOME"
+
+# Git integration
+GIT_FOLDER_PATH="$HOME/jrnl-local"
+GIT_FOLDER_NAME="GIT"
+GIT_AUTOPROVISION="YES"
+GIT_USER="git_username"
+GIT_REPO_PATH="https://your.repo.root"
