@@ -20,3 +20,4 @@
 * Python iCalendar Docs - https://icalendar.readthedocs.io/en/latest/
 * Python URL File Parsing etc - https://github.com/irgangla/icalevents
 * Python Thorn webhooks project (Django only) - https://github.com/robinhood/thorn#about
+* Python Github Webhooks - https://github.com/bloomberg/python-github-webhook
