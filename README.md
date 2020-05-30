@@ -24,7 +24,7 @@ Folder Structure for multiple journals with associated git repos.
       |
       |--> [ ...    ]       
 ```
-* Each journal title mutch the repo name.
+* Each journal title must match the repo name.
 * Inside your working [ REPO DIR ] execute ../export_jrnl_files.sh
 * Respond to the prompt to push changes. Done!
 * Read the script to see what's going on. :)
