@@ -12,17 +12,16 @@
 
 Folder Structure for multiple journals with associated git repos.
 
-  [ GIT DIR TO HOLD ALL REPOS ]
-            |
-            |----> symlink to ~/jrnl-rific/export_jrnl_files.sh        
-            |
-            |----> [ REPO 1 DIR ]
-            |
-            |----> [ REPO 2 DIR ] 
-            |
-            |----> [ REPO 3 DIR ]
-            |
-            |----> MORE DIRS ...
+[ GIT DIR TO HOLD ALL REPOS ]
+|--> symlink to ~/jrnl-rific/export_jrnl_files.sh        
+|
+|--> [ REPO 1 DIR ]
+|
+|--> [ REPO 2 DIR ] 
+|
+|--> [ REPO 3 DIR ]
+|
+|--> MORE DIRS ...
 
 * Each journal title must math the repo name.
 * Inside your working [ REPO DIR ] execute ../export_jrnl_files.sh
