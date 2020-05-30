@@ -30,7 +30,7 @@ Folder Structure for multiple journals with associated git repos.
 * Read the script to see what's going on. :)
 
 ## Todo
-* MAke automation switch in config for unattended updates of GIT repos
+* Make automation switch in config for unattended updates of GIT repos
 * Configuration file editor eg jrnl.yaml
 * Add, edit, remove additional journals
 * Drupal CMS publishing via Feeds Import from CSV
