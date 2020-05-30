@@ -8,7 +8,29 @@
 * Jrnl offers multiproject support
 * Jrnl-Rific makes Git integration easy
 
+## Usage
+
+Folder Structure for multiple journals with associated git repos.
+
+  [ GIT DIR TO HOLD ALL REPOS ]
+            |
+            |----> symlink to ~/jrnl-rific/export_jrnl_files.sh        
+            |
+            |----> [ REPO 1 DIR ]
+            |
+            |----> [ REPO 2 DIR ] 
+            |
+            |----> [ REPO 3 DIR ]
+            |
+            |----> MORE DIRS ...
+
+* Each journal title must math the repo name.
+* Inside your working [ REPO DIR ] execute ../export_jrnl_files.sh
+* Respond to the prompt to push changes. Done!
+* Read the script to see what's going on. :)
+
 ## Todo
+* MAke automation switch in config for unattended updates of GIT repos
 * Configuration file editor eg jrnl.yaml
 * Add, edit, remove additional journals
 * Drupal CMS publishing via Feeds Import from CSV
