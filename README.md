@@ -14,18 +14,13 @@ Folder Structure for multiple journals with associated git repos.
 ```
    [ GIT ]
       |
-      |
       |--> symlink to ~/jrnl-rific/export_jrnl_files.sh        
-      |
       |
       |--> [ REPO 1 ]
       |
-      |
       |--> [ REPO 2 ] 
       |
-      |
       |--> [ REPO 3 ]
-      |
       |
       |--> [ ...    ]       
 ```
