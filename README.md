@@ -8,7 +8,7 @@
 * Jrnl offers multiproject support
 * Jrnl-Rific makes Git integration easy
 
-## Usage
+## Usage - [ RTFM ]
 
 Folder Structure for multiple journals with associated git repos.
 ```
