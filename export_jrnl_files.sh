@@ -15,14 +15,19 @@
 #    jrnl $j --export markdown -o ../$j/
 #done
 
+#define subfolder name
 SUB="journal"
 
+#if current directory is journal, export default jrnl (no name specified)
+#else export a jrnl file configured (jrn.yaml) with the same name as the current directory
 if [ $(basename $PWD) == "journal" ]; then
    JRNL=""
 else
    JRNL=$(basename $PWD)
 fi
 
+#if subdirectory previously defined as "journal" exists in current location, export to that dir
+#else, export to current directory
 if [ -d ./$SUB ] ; then 
   JRNLDIR="/$SUB"
 fi
