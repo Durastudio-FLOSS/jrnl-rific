@@ -35,6 +35,9 @@ Folder Structure for multiple journals with associated git repos.
 * Add, edit, remove additional journals
 * Drupal CMS publishing via Feeds Import from CSV
 * CalDAV and CarDAV tagged entry push support
+* Chronjob
+* only commit/add/push the journal file. Leave other files in git repo alone. 
+* config file to automate git add/commit/push. 
 
 ## Resources
 * Building a Sabre/Dav Client - https://sabre.io/dav/building-a-caldav-client/
